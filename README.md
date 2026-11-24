@@ -69,3 +69,10 @@ In Soong: `PcLoginCoreTests` (`java_test_host`).
 - The Googlebook login also handles apps locked to a user and entry and exit animations; neither is
   here.
 - Removing a user is done in Settings, not on this screen.
+
+## Credits
+
+- [LineageOS](https://lineageos.org) ([GitHub](https://github.com/LineageOS)): the base system and build this app is part of.
+- [Android Open Source Project](https://source.android.com): the platform, its headless system user mode and multi-user APIs, Jetpack Compose and Material 3.
+
+Thanks to everyone behind these projects. Files taken from them keep their original licenses and copyright notices.
