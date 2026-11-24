@@ -1,0 +1,25 @@
+// PcLogin: the login screen of LineageOS for PCs. It is the home screen of the headless system user
+// (user 0): it lists the people who use the PC, signs one in, and adds users and guests.
+// The screen's logic lives in core/ and is tested on the host.
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+java_library {
+    name: "PcLoginCore",
+    host_supported: true,
+    srcs: ["core/src/**/*.kt"],
+    sdk_version: "core_current",
+}
+
+java_test_host {
+    name: "PcLoginCoreTests",
+    srcs: ["core/tests/**/*.kt"],
+    static_libs: [
+        "PcLoginCore",
+        "junit",
+    ],
+    test_options: {
+        unit_test: true,
+    },
+}
