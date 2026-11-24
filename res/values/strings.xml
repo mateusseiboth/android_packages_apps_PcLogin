@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login</string>
+    <string name="add_user">Add user</string>
+    <string name="use_as_guest">Use as guest</string>
+    <string name="accessibility">Accessibility</string>
+    <!-- Name of a user added from the login screen, until the user changes it. -->
+    <string name="new_user_name">New user</string>
+    <string name="guest_name">Guest</string>
+    <!-- Shown for a user without a name. -->
+    <string name="unnamed_user">User</string>
+    <string name="sign_in_as">Sign in as %1$s</string>
+    <string name="signing_in">Signing in</string>
+    <string name="sign_in_failed">Could not sign in. Try again.</string>
+    <string name="create_failed">Could not add the user. Try again.</string>
+</resources>

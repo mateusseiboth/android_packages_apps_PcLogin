@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blur of the wallpaper behind the login screen, when the device can blur. -->
+    <dimen name="login_blur_radius">40dp</dimen>
+    <dimen name="login_no_blur">0dp</dimen>
+</resources>

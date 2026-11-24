@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login</string>
+    <string name="add_user">Adicionar usuário</string>
+    <string name="use_as_guest">Usar como convidado</string>
+    <string name="accessibility">Acessibilidade</string>
+    <string name="new_user_name">Novo usuário</string>
+    <string name="guest_name">Convidado</string>
+    <string name="unnamed_user">Usuário</string>
+    <string name="sign_in_as">Entrar como %1$s</string>
+    <string name="signing_in">Entrando</string>
+    <string name="sign_in_failed">Não foi possível entrar. Tente de novo.</string>
+    <string name="create_failed">Não foi possível adicionar o usuário. Tente de novo.</string>
+</resources>

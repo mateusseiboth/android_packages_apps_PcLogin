@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The login screen is the home screen of the headless system user (user 0) only. -->
+<config>
+    <install-in-user-type package="org.lineageos.pclogin">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+</config>

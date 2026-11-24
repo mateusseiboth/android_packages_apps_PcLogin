@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Whether the login screen offers "Use as guest". A product overlay may turn it off. -->
+    <bool name="config_showGuestButton">true</bool>
+</resources>
