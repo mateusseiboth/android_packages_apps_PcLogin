@@ -36,6 +36,12 @@ configuration of `build/make/target/product/hsu_as_login.mk`:
 - Guests left by earlier sessions are removed when the screen comes back.
 - The wallpaper shows through, blurred when the device can blur and darker when it cannot.
 
+## Screenshot
+
+![The login screen.](docs/screenshots/08-login.png)
+
+The login screen of an installed system, taken in QEMU/KVM at 1920x1080.
+
 ## Code
 
 - `core/`: plain Kotlin, no Android. `LoginRoster` (who is listed, stale guests), `PodSize`,
